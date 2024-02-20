@@ -1,0 +1,29 @@
+Calificador automático utilizando modelos de deep learning 
+
+Se pretende crear un modelo de deep learning que permita realizar 
+calificaciones a pruebas de opción multiple, es decir,
+el modelo recibirá registros fotográficos de las evaluaciones
+de los estudiantes, en donde se encontrará un tabla de contenido con diferentes
+números de preguntas pero siempre el mismo número de opciones de respuesta.
+
+Para iniciar el proceso evaluativo se debe ingresar un dataframe al modelo
+con la información correcta, es decir, todas las preguntas deben estar 
+respondidas marcando la casilla correspondiente, apartir de esto el algoritmo 
+conocerá las opciones correctas y le permetirá realizar las calificaciones.
+
+El modelo debe identificar la organización de la tabla de datos, donde 
+se genera un dataframe con la misma estructura y las opciones marcadas
+por los estudiantes se resaltarán con la letra "X" en el df creado.
+
+Simultaneamente el modelo indentificará la casilla del nombre del estudiantes
+y el numeral que le corresponde, con esta acción, se reconoce a quién se
+está evaluando, de modo que, el algoritmo permite realizar la calificación 
+dada la tabla de datos que contiene las respuestas del estudiante y genera
+su respectiva calificación.
+
+Se produce otro dataframe que contará con cada uno de los participantes, 
+la calificación que obtuvo, con esta información el modelo creará gráficas
+y también algunos estádisticas descriptivas del desempeño de los estudiantes,
+por ejemplo, mejor calificación, calificación más baja, promedio, mediana,
+varianza, desviación estándar, diagrama de caja, histógrama y un 
+gráfico de dispersión.
