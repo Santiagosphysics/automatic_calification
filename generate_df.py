@@ -2,7 +2,7 @@ import numpy as np
 import pandas as pd 
 
 number_questions = int(input('Please write the number of questions: '))
-number_options = int(input('Please write the number of questions: '))
+number_options = int(input('Please write the number of options: '))
 
 abc = ['A','B','C','D','E','F','G','H','I','J','K','L','M','N','O','P','Q','R','S','T','U','V','W','X','Y','Z']
 def change_num(number_options, abc):
@@ -34,4 +34,4 @@ def mod(options, df):
     return df
 
 modi = mod(options, df)
-modi
+print(modi)
